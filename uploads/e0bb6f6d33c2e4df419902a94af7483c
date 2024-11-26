@@ -1,0 +1,25 @@
+Cloudwatch
+
+EC2 DASHBOARD 
+-->Key pairs
+-->ElasticIps / static ips -->perfect ip address ke through jaaye aur saaamne waala bhi same ip me dekhe.
+-->load balancers (kahi pe aagar packets zyaada chale jaaye aur kisi link or router ke through zyaada load ho raha hai.    (RSA IN key pair)
+
+.pem (for windows)
+for use with OpenSSH.
+
+.ppk 
+for use with putty. (for ubuntu or linux use this).
+
+
+
+
+Steps for today labs;
+
+bucket creation.
+1) two buckets will be created one source and one destination or replication bucket.
+2) for implementing cross region we use ---> first enable versoning in s3 buckets.
+3) File selection which is need to be transferred.
+4) go in permission and enable cross region replication (source buckets) 
+level of bucket bhi select kro .
+when done upload your file to destination buckets.

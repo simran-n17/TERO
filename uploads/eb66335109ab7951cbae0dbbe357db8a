@@ -1,0 +1,31 @@
+Hardwired Control Unit.
+uses gates, flipflops , decoders in hardware.
+faster than the micro programmed unit.
+Reduced intruction set computer example of this.
+
+Advantages:-
+1) Fast (control signals by using combinational circuit.
+2)Performance is high.
+
+Disadvantages:-
+1) modifications very difficult 
+2) difficult to correct mistakes of adding new features in existing system design of cu.  
+
+Nano-Programming(or microprogramming).
+.)The process of generating the microcode for the control memory is known as microprogramming.
+.)Microinstruction Format.
+.)The 20 bits of the microinstruction are divided into four functional parts.
+a) F1,F2,F3:Microoperation fields.(3 bits each.)
+b) CD:Condition for branching.(2 bits) (Selects status bit conditions)
+c) BR:Branch Field.(2 bits) (Specifies the type of branch to be used)
+d) AD:Address field.(7 bits) (AD contains a branch address. it is of 7 bits because control memory has 128 words.)
+
+All transfer type microoperations symbols use five letters
+first two letters represent teh source register, the third letter is always T , and the last two letters designate the destination register.
+
+for example.:- DRTAC it stands for a transfer from DR to AC. 
+
+BR Field consists of two bits and used in conjunction with address field AD, to choose the address of the next microinstruction.
+
+Superscalar Processing:-
+A superscalar implementation of a processor architecture is one in which common instructions - integer and floating-point arithmetic, loads, stores and conditional branches -  can be initiated simultaneously and executed independently.
